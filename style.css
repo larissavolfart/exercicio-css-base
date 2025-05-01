@@ -67,3 +67,24 @@ hr {
     border: 0.5px rgba(128, 128, 128, 0.84) solid;
 }
 
+#planos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.table-planos {
+    margin: 15px auto;
+    border-collapse: collapse;
+    border: 0.5px solid gray;
+    margin-bottom: 70px;
+}
+
+th, td {
+    padding: 15px 50px;
+    border: 0.5px solid gray;
+}
+
+tbody th {
+    text-align: left;
+    padding: 10px 150px 10px 10px
+}
