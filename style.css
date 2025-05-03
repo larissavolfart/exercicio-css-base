@@ -9,25 +9,51 @@
 
 header {
     background-color: #3d63b6;
-    padding: 6px;
+    padding: 24px;
 }
 
-header > p {
-    display: inline-block;
+ul {
+    display: flex;
+    gap: 48px;
+}
+
+header li {
+    list-style-type: none;
     color: white;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
-    margin: 24px;
 }
 
 .image-1 {
-    width: 380px;
+    width: 400px;
 }
 
-.section {
+section {
+    padding: 48px;
     text-align: center;
-   padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 {
+    flex-direction: row-reverse;
+}
+
+.section2 {
+    gap: 48px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+section.section2 > img {
+    width: 40%;
+}
+
+section.section2 > div {
+    width: 40%;
 }
 
 h2 {
@@ -54,10 +80,6 @@ margin: 10px;
     font-weight: bold;
 }
 
-.image-2 {
-    width: 380px;
-}
-
 .footer {
     padding: 36px;
 }
@@ -73,15 +95,15 @@ hr {
 }
 
 #planos {
-    text-align: center;
-    margin-top: 50px;
+    /* text-align: center;
+    margin-top: 50px; */
 }
 
 .table-planos {
-    margin: 15px auto;
+    /* margin: 15px auto; */
     border-collapse: collapse;
     border: 0.5px solid gray;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 }
 
 th, td {
@@ -110,4 +132,9 @@ header a:hover {
     color: #c4d2f0;
     text-decoration: underline;
     cursor: pointer;
+}
+
+section#planos {
+    display: flex;
+    flex-direction: column;
 }
